@@ -1,6 +1,6 @@
-from django.conf.urls import patterns
+from django.conf.urls import include, url
+from django.contrib.flatpages import views
 
-
-urlpatterns = patterns('theme.views',
+urlpatterns = [
     # put your custom urls here
-)
+]
