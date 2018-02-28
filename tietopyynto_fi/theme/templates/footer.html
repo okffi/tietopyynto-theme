@@ -1,0 +1,8 @@
+{% overextends "footer.html" %}
+{% load staticfiles %} 
+
+{% block footer_logo %}
+  <a href="https://okfn.de">
+    <img src="{{ STATIC_URL }}" alt="Open Knowledge Finland"/>
+  </a>
+{% endblock %}
