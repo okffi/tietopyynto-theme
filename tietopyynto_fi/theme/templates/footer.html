@@ -1,8 +1,35 @@
 {% overextends "footer.html" %}
-{% load staticfiles %} 
+{% load static %} 
+{% load i18n %}
+{% load debug %}
+
 
 {% block footer_logo %}
-  <a href="https://okfn.de">
-    <img src="{{ STATIC_URL }}" alt="Open Knowledge Finland"/>
+  <a href="https://fi.okfn.org">
+    <img width="150px" src="{% static "img/okfi_logo.png" %}" alt="Open Knowledge Finland"/>
   </a>
+{% endblock %}
+
+{% block footer_credits %}
+<p class="footer__credits">
+  {% blocktrans %}Froide is a free and Open Source Project by <a href="https://okfn.de">the Open Knowledge Foundation</a>. If you want to support Froide, please visit the <a href="https://github.com/okfde/froide">repository on GitHub</a>.{% endblocktrans %}
+</p>
+<p class="footer__credits">
+  Vertaistukea tietopyytämiseen saat <a href="https://www.facebook.com/groups/tietopyynto" style="text-decoration: underline;">Facebook-ryhmästämme</a>.
+</p>
+<ul class="footer__networks">
+  <li>
+    <a href="https://github.com/okffi/tietopyynto/" target="_blank" rel="noopener">
+      <i class="fa fa-github" aria-hidden="true"></i>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/okffi" target="_blank" rel="noopener">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+</ul>
+
 {% endblock %}
