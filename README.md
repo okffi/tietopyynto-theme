@@ -1,18 +1,6 @@
-# Froide Base Theme
+# Froide Theme for tietopyynto.fi
 
-This is a basic Django project with a theme app that plugs into [Froide](https://github.com/stefanw/froide).
-
-## Get started easily
-
-In a Python virtualenv run:
-
-    pip install -r requirements.txt -e .
-    python manage.py syncdb --migrate
-    python manage.py runserver
-
-
-[Here is a complete guide of how to set this up on Heroku.](http://froide.readthedocs.org/en/latest/herokudeployment/)
-
+This is a theme for the [Froide](https://github.com/stefanw/froide) platform, based on the [base theme](https://github.com/okfde/froide-theme).
 
 ## License
 
