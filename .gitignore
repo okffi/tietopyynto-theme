@@ -5,3 +5,6 @@ build/
 dist/
 *.egg-info
 *.swp
+local_settings.py
+tietopyynto_fi/logs/
+custom_settings.py
