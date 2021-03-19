@@ -26,7 +26,7 @@ django-taggit==0.22.2
 django-tinymce==2.7.0
 # until https://github.com/django-treebeard/django-treebeard/pull/91 resolved
 -e git+git://github.com/stefanw/django-treebeard.git@deploy#egg=django-treebeard
-djangorestframework==3.7.7
+djangorestframework==3.11.2
 honcho==1.0.1
 idna==2.6
 itypes==1.1.0
