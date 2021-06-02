@@ -34,7 +34,7 @@ jinja2==2.10
 jsonfield==2.0.2
 kombu==4.1.0
 markdown==2.6.11
-markdown2==2.3.5
+markdown2==2.4.0
 markupsafe==1.0
 oauthlib==2.0.6
 pillow==5.0.0
